@@ -1,0 +1,68 @@
+[ 2017-05-01T10:39:50+08:00 ] ::1 /index.php/Admin/Index/index/tab/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.001105s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000533s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `buy` INNER JOIN  user on buy.uid = user.id INNER JOIN product on buy.pid = product.id   [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.000394s ]
+SQL: SELECT `id` FROM `buy`  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: show /Users/liupengfei/Downloads/AppShopService-master/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-05-01T10:39:51+08:00 ] ::1 /index.php/Admin/Index/index/tab/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000495s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `buy` INNER JOIN  user on buy.uid = user.id INNER JOIN product on buy.pid = product.id   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.000396s ]
+SQL: SELECT `id` FROM `buy`  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: show /Users/liupengfei/Downloads/AppShopService-master/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 154 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+

@@ -1,0 +1,1516 @@
+[ 2017-04-30T22:24:41+08:00 ] 192.168.1.6 /index.php/Home/index/login?phone=15639285163&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000607s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15639285163' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `user` WHERE ( password = '202cb962ac59075b964b07152d234b70'&& phone='15639285163' ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001179s ]
+SQL: SELECT * FROM `user` WHERE ( password = '202cb962ac59075b964b07152d234b70'&& phone='15639285163' ) LIMIT 1   [ RunTime:0.000354s ]
+
+[ 2017-04-30T22:24:42+08:00 ] 192.168.1.6 /index.php/Home/index/getUpdateAppInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-04-30T22:24:44+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-04-30T22:24:44+08:00 ] 192.168.1.6 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000367s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-04-30T22:25:05+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000511s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-30T22:25:22+08:00 ] 192.168.1.6 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000426s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-04-30T22:25:22+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-04-30T22:25:23+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000627s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-04-30T22:25:34+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000369s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000321s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000350s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000308s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000304s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000354s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000294s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000297s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000329s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000281s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-04-30T22:25:34+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000491s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000354s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.001773s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000284s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000289s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000322s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000294s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000277s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000290s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000305s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000350s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000284s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000243s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-04-30T22:25:36+08:00 ] 192.168.1.6 /index.php/Home/index/uploadOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000515s ]
+SQL: SELECT * FROM `user` WHERE ( id='35' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000469s ]
+SQL: SELECT * FROM `product` WHERE ( id =20 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `product` WHERE ( id =20 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.000333s ]
+SQL: INSERT INTO `buy` (`pid`,`uid`,`sum`,`total`) VALUES (20,35,1,1000) [ RunTime:0.001840s ]
+
+[ 2017-04-30T22:25:38+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000444s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000372s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000379s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000365s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000349s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000345s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000356s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000367s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-04-30T22:25:48+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000517s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000373s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000322s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000340s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000349s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-30T22:25:50+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000430s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000420s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000332s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000301s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-04-30T22:25:50+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000350s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000278s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000285s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000279s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000280s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000259s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000297s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000292s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000261s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000274s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-04-30T22:25:52+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000445s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000439s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000334s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000363s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000319s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000333s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-30T22:25:52+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000472s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000346s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000329s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000324s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000300s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000291s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000304s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000304s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000284s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-04-30T22:25:55+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000414s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000346s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000347s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000305s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000323s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000453s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000300s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000301s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-04-30T22:26:13+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000449s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000390s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000339s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000367s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000356s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-04-30T22:26:16+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000539s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000398s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000399s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000385s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000381s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000402s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000362s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-04-30T22:26:57+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000404s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000400s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000307s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000349s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000331s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000327s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000312s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000310s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000335s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-30T22:27:02+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000445s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-30T22:27:02+08:00 ] 192.168.1.6 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-30T22:27:05+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-04-30T22:27:08+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000486s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000341s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000398s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000306s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000307s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000295s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000307s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000283s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000295s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000284s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.002799s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000341s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-04-30T22:27:08+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.003235s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000327s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000346s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000300s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000288s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000269s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000284s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000274s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000263s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000334s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000270s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000283s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-04-30T22:27:14+08:00 ] 192.168.1.6 /index.php/Home/index/getSubCommentData?cid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000400s ]
+SQL: SELECT * FROM `user` RIGHT JOIN subcomment ON subcomment.uid = user.id  WHERE ( cid = 45 )  [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-04-30T22:27:20+08:00 ] 192.168.1.6 /index.php/Home/index/uploadSubComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000433s ]
+SQL: INSERT INTO `subcomment` (`uid`,`cid`,`commentcontent`,`commenttime`,`like`) VALUES (35,45,'1%E9%9E%A5%E6%9C%89%E8%89%B2%E4%BD%93%E6%88%91%E5%A9%86%E5%A9%86%E9%A2%9C%E8%89%B2',1493562440,0) [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-04-30T22:27:21+08:00 ] 192.168.1.6 /index.php/Home/index/getSubCommentData?cid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `user` RIGHT JOIN subcomment ON subcomment.uid = user.id  WHERE ( cid = 45 )  [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-30T22:27:25+08:00 ] 192.168.1.6 /index.php/Home/index/updateSubLikes?sid=92&likeNumber=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000456s ]
+SQL: UPDATE `subcomment` SET `like`='1' WHERE ( id = 92 ) [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-04-30T22:27:25+08:00 ] 192.168.1.6 /index.php/Home/index/updateSubLikes?sid=92&likeNumber=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000450s ]
+SQL: UPDATE `subcomment` SET `like`='0' WHERE ( id = 92 ) [ RunTime:0.002015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-04-30T22:27:29+08:00 ] 192.168.1.6 /index.php/Home/index/updateSubLikes?sid=92&likeNumber=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000435s ]
+SQL: UPDATE `subcomment` SET `like`='1' WHERE ( id = 92 ) [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-30T22:28:34+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000468s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000407s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000380s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000341s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000323s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000279s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000295s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000289s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000293s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000263s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000261s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000260s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000257s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000227s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000234s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-04-30T22:29:08+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000467s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-04-30T22:29:15+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000447s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-04-30T22:29:21+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000517s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000350s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000334s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000305s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000380s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000374s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000301s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000319s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000292s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-04-30T22:29:21+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000347s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000377s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000327s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000320s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-04-30T22:29:38+08:00 ] 192.168.1.6 /index.php/Home/index/uploadPicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000424s ]
+SQL: UPDATE `user` SET `iconimg`='/Uploads/icon/1493562390179.jpg' WHERE ( id=35 ) [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-30T22:29:41+08:00 ] 192.168.1.6 /index.php/Home/index/getAllOrderData?uid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `user` RIGHT JOIN buy ON buy.uid = user.id  WHERE ( user.id = 35 )  [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000359s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000369s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000333s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `product` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000335s ]
+SQL: SELECT * FROM `product` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `product` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `product` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `product` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000322s ]
+SQL: SELECT * FROM `product` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-04-30T22:29:48+08:00 ] 192.168.1.6 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-30T22:29:48+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-04-30T22:30:04+08:00 ] 192.168.1.6 /index.php/Home/index/getUpdateAppInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000449s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-04-30T22:30:05+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-04-30T22:30:05+08:00 ] 192.168.1.6 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000479s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-04-30T22:30:13+08:00 ] 192.168.1.6 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000538s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-04-30T22:30:47+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000565s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000460s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000421s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000527s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000385s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000375s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000345s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000363s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000335s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000343s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000283s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000308s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-04-30T22:30:47+08:00 ] 192.168.1.6 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000548s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000412s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000456s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.001283s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000378s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000338s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000402s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000307s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000329s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-04-30T22:30:55+08:00 ] 192.168.1.3 /index.php/Home/index/getUpdateAppInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000638s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-30T22:30:56+08:00 ] 192.168.1.3 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-04-30T22:30:56+08:00 ] 192.168.1.3 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-04-30T22:31:00+08:00 ] 192.168.1.3 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000591s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000410s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000425s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000381s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000400s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000682s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000312s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000319s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000300s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000314s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000315s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000374s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000430s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-04-30T22:31:00+08:00 ] 192.168.1.3 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000813s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000339s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000290s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000289s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000315s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000349s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000328s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000435s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000441s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000364s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000325s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-04-30T22:31:00+08:00 ] 192.168.1.3 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-04-30T22:31:01+08:00 ] 192.168.1.3 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000555s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-30T22:31:07+08:00 ] 192.168.1.3 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000544s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000537s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000313s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000288s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000306s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000278s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000400s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000417s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000341s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000286s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000314s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000291s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000335s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000311s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000394s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-04-30T22:31:07+08:00 ] 192.168.1.3 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000434s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000373s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000355s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000306s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000295s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000343s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000326s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000372s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000419s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000399s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000329s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-04-30T22:31:07+08:00 ] 192.168.1.3 /index.php/Home/index/getCommentData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000404s ]
+SQL: SELECT * FROM `comment` LEFT JOIN product ON comment.pid = product.id LEFT JOIN user ON comment.uid = user.id   [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000344s ]
+SQL: SELECT `id` FROM `comment`  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 36 )  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 37 )  [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 38 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000339s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 39 )  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 40 )  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 41 )  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000333s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 42 )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000313s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 43 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000314s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 44 )  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000306s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 45 )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 46 )  [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000305s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 47 )  [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 48 )  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `subcomment` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `subcomment` WHERE ( cid = 49 )  [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-04-30T22:31:15+08:00 ] 192.168.1.3 /index.php/Home/index/getUpdateAppInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000441s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-30T22:31:16+08:00 ] 192.168.1.3 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000623s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-04-30T22:31:17+08:00 ] 192.168.1.3 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-04-30T22:31:28+08:00 ] 192.168.1.3 /index.php/Home/index/getUpdateAppInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `updateapp` [ RunTime:0.000563s ]
+SQL: SELECT * FROM `updateapp` ORDER BY updatetime desc  [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-04-30T22:31:29+08:00 ] 192.168.1.3 /index.php/Home/index/getProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `product` ORDER BY type asc  [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-04-30T22:31:29+08:00 ] 192.168.1.3 /index.php/Home/index/getBanners
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/liupengfei/Downloads/AppShopService-master/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.000413s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
